@@ -16,10 +16,10 @@ const Intro = () => {
         <p className="introPara">
       
           Tech Enthusiast Passionate about all things tech! 🚀 MCA PostGraduate
-          student diving deep into the world of Frontend Development.
-          Specializing in the dynamic MERN stack, mastering JavaScript, Python,
+          student diving deep into the<br/> world of Frontend Development.
+          Specializing in the dynamic MERN stack, mastering JavaScript, Python,<br/> 
           and always up for a coding challenge. Eager to contribute innovative
-          solutions and connect with like-minded tech enthusiasts. Let's geek
+          solutions and connect<br/>  with like-minded tech enthusiasts. Let's geek
           out over the latest trends and opportunities!💡💻
         </p>
         <Link> <button className="btn" ><img src={btnImg} alt="Hire Me" className="btnImg"/>Hire me</button></Link>

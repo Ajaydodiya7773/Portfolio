@@ -24,7 +24,7 @@
     width: 80vw;
     padding: 2rem;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 500;
     display: flex;
     flex-direction: column;
     justify-content:flex-end;
@@ -33,7 +33,7 @@
  .introPara{
     position: absolute;
     font-size:medium;
-    font-weight: 200;
+    font-weight: 300;
     margin-top: 3rem;
     position: relative;
     justify-content: center;

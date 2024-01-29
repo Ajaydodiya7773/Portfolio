@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import Navbar from './componenet/navbar';
+
 import Intro from './componenet/Intro/intro';
+import Navbar from './componenet/NavBar/navbar';
 
 
 
