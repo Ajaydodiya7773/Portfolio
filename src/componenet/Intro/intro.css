@@ -2,13 +2,15 @@
     height: calc(100vh - 4rem);
     width: 100vh;
     max-width: 75rem;
-    margin:0 auto;
-    overflow: hidden;
-    position: relative;
+    margin: 0; 
+    
+    
 }
 .bg{
+    height: 90vh;
+    width: 90vh;
     position:absolute;
-    top: -4rem;
+    top: 1rem;
     right: 0;
     z-index: -1;
     object-fit: cover;
@@ -18,17 +20,44 @@
     
 }
  .introContent{
-    height: 100vh;
-    width: 100vw;
+    height: 80vh;
+    width: 80vw;
     padding: 2rem;
     font-size: 3rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
+    justify-content:flex-end;
+   
  }
+ .introPara{
+    position: absolute;
+    font-size:medium;
+    font-weight: 200;
+    margin-top: 3rem;
+    position: relative;
+    justify-content: center;
+ }
+
  .hello{
     font-size: 1.75rem;
-    font-weight:300;
+   font-weight:300;
+    
+ }
+ .introName{
+    color: yellow;
+
+ }
+ .btn{
+   background-color: white;
+   width: 8rem;
+   margin: 1rem 0;
+   padding: 0.75rem 0;
+   border-radius: 2rem;
+   
+ }
+ .btnImg{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
  }
