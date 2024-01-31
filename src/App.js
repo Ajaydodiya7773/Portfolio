@@ -3,6 +3,7 @@ import './App.css';
 
 import Intro from './componenet/Intro/intro';
 import Navbar from './componenet/NavBar/navbar';
+import Skills from './componenet/Skiils/skills';
 
 
 
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
 <Navbar/>
 <Intro/>
+<Skills/>
     </div>
   );
 }
