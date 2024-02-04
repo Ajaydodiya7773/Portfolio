@@ -14,9 +14,9 @@ const Navbar = () => {
         <Link className="desktopmenu">Projects</Link>
         <Link className="desktopmenu">Portfolio</Link>
       </div>
-      <button className="desktopMenuBtn">
-        <img src= {contact}alt="Contact" className="desktopMenuImg" /> ContactMe
-      </button>
+      <Link> <button className="desktopMenuBtn" >
+        <img src= {contact}alt="Contact" className="desktopMenuImg" /> Contact Me
+      </button> </Link>
     </nav>
   );
 };

@@ -27,12 +27,13 @@
     padding-bottom: 0.5rem;
     border-bottom: 3px solid yellow;
 }
-.desktopmenuImg{
+.desktopMenuImg{
     object-fit: cover;
     height: 1rem;
     width: 1rem;
     margin: 1rem;
     size: 0cap;
+
 }
 .desktopMenuBtn{
 background-color:white;
@@ -44,4 +45,7 @@ align-items: center;
 justify-content: center;
 padding: 0 1rem;
 margin: 0 1rem;
+}
+@media screen and (max-width: 480px) {
+   
 }
