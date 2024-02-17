@@ -20,15 +20,19 @@ Eager to contribute to projects and collaborate with cross-functional teams.</sp
 <div className="skillBars">
     <div className="skillBar">
         <img src={UIDesign} alt='UIDesign' className='skillBarImg'/>
-        <div className='skillBarText'></div>
+        <div className='skillBarText'>
         <h2>UI/UX Design</h2>
         <p>Design website </p>
+        </div>
+      
     </div>
     <div className="skillBar">
         <img src={WebDesign} alt='WebDesign' className='skillBarImg'/>
-        <div className='skillBarText'></div>
+        <div className='skillBarText'>
         <h2>Web Developer</h2>
         <p>Frontend Developer</p>
+        </div>
+       
     </div>
 </div>
    </section>
