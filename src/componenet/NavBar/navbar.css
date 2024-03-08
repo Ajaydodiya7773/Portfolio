@@ -1,51 +1,78 @@
-.Navbar{
-    background-color:rgb(30, 30, 30);
+.Navbar {
+    background-color:transparent (rgba(0, 0, 0, 0.652));
     height: 5rem;
     width: 100vw;
     margin: 0 auto;
-    max-width: 75rem;
+    max-width: 175rem;
     padding: 1rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
- 
+    position: fixed;
     top: 0;
     z-index: 3;
-}
-.logo2{
+  }
+  
+  .logo2 {
     object-fit: cover;
     height: 3rem;
     width: 4rem;
-
-}
-.desktopmenu{
+  }
+  
+  .desktopmenu {
     margin: 1rem;
     cursor: pointer;
-}
-.desktopmenu:hover{
+  }
+  
+  .desktopmenu:hover {
     color: yellow;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid yellow;
-}
-.desktopMenuImg{
+  }
+  
+  .desktopMenuImg {
     object-fit: cover;
     height: 1rem;
     width: 1rem;
     margin: 1rem;
     size: 0cap;
-
-}
-.desktopMenuBtn{
-background-color:white;
-color: black;
-border: none;
-border-radius: 1pc;
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 0 1rem;
-margin: 0 1rem;
-}
-@media screen and (max-width: 480px) {
-   
-}
+  }
+  
+  .desktopMenuBtn {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 1pc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    margin: 0 1rem;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .Navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .desktopMenu {
+      display: none;
+    }
+  
+    .desktopMenuBtn {
+      margin-top: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .Navbar {
+      padding: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .Navbar {
+      padding: 1rem 2rem;
+    }
+  }

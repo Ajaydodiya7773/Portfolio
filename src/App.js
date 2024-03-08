@@ -5,6 +5,7 @@ import Intro from './componenet/Intro/intro';
 import Navbar from './componenet/NavBar/navbar';
 import Skills from './componenet/Skiils/skills';
 import Project from './componenet/Intro/Projects/project';
+import Footer from './componenet/Footer/footer';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
 <Intro/>
 <Skills/>
 <Project/>
+<Footer/>
     </div>
   );
 }

@@ -28,7 +28,8 @@ const Intro = () => {
       <img src={bg} alt="Profile" className="bg" />
     
     </section>
-  );
+    
+    );
 };
 
 export default Intro;
